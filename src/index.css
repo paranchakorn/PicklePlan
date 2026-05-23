@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --color-brand-lime: #8EE53F;
+  --color-brand-dark: #121A0F;
+  --color-brand-forest: #1F3316;
+}
+
+/* Custom styled scrollbars and responsive adjustments */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Custom pulse animations for timing elements */
+@keyframes radial-pulse {
+  0% { box-shadow: 0 0 0 0px rgba(142, 229, 63, 0.4); }
+  100% { box-shadow: 0 0 0 12px rgba(142, 229, 63, 0); }
+}
+
+.pulse-button {
+  animation: radial-pulse 2s infinite;
+}

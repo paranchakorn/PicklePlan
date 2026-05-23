@@ -1,0 +1,6 @@
+{
+  "name": "Pickleball Routine Planner",
+  "description": "Mobile-responsive training, exercise, and stretching routines tailored for pickleball players based on physical condition, time constraints, and game bottlenecks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
