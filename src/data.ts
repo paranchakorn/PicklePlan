@@ -38,10 +38,8 @@ export const sessionPlans: SessionPlan[] = [
       { nameEn: 'Light walk', nameTh: 'เดินเบาๆ ผ่อนคลายกล้ามเนื้อขา (Light Walk)', durationOrSetsEn: '10-15 min', durationOrSetsTh: '10-15 นาที', durationSeconds: 600 },
       { nameEn: 'Breathing cooldown', nameTh: 'หายใจผ่อนคลายสมาธิและหัวใจ (Breathing Cooldown)', durationOrSetsEn: '2 min', durationOrSetsTh: '2 นาที', durationSeconds: 120 }
     ],
-    imageUrl: import.meta.env.BASE_URL + 'images/plan-1.jpg',
-    fallbackUrl: 'https://images.unsplash.com/photo-1607962837359-5e7e89f866fe?q=80&w=600&auto=format&fit=crop',
-    easyImageUrl: 'https://i.postimg.cc/QdPtk6rk/Chat-GPT-Image-May-21-2026-01-09-24-PM.png',
-    fullImageUrl: 'https://i.postimg.cc/fb9bHxwt/Chat-GPT-Image-May-21-2026-01-11-44-PM.png'
+    easyImageUrl: import.meta.env.BASE_URL + 'images/plan-1-easy.png',
+    fullImageUrl: import.meta.env.BASE_URL + 'images/plan-1-full.png'
   },
   {
     id: 2,
@@ -72,10 +70,8 @@ export const sessionPlans: SessionPlan[] = [
       { nameEn: 'Kitchen line in-out movement', nameTh: 'ขยับเท้าก้าวเข้า-ออกหน้าเส้นครัวอย่างรวดเร็ว', durationOrSetsEn: '5 min', durationOrSetsTh: '5 นาที', durationSeconds: 300 },
       { nameEn: 'Cooldown ankle/hip', nameTh: 'คูลดาวน์กล้ามเนื้อส่วนข้อยืดข้อเท้าและสะโพก', durationOrSetsEn: '5 min', durationOrSetsTh: '5 นาที', durationSeconds: 300 }
     ],
-    imageUrl: import.meta.env.BASE_URL + 'images/plan-2.jpg',
-    fallbackUrl: 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=600&auto=format&fit=crop',
-    easyImageUrl: 'https://i.postimg.cc/fRFLjHhZ/Chat-GPT-Image-May-21-2026-01-13-07-PM.png',
-    fullImageUrl: 'https://i.postimg.cc/QdPtk6r7/Chat-GPT-Image-May-21-2026-01-16-38-PM.png'
+    easyImageUrl: import.meta.env.BASE_URL + 'images/plan-2-easy.png',
+    fullImageUrl: import.meta.env.BASE_URL + 'images/plan-2-full.png'
   },
   {
     id: 3,
@@ -106,10 +102,8 @@ export const sessionPlans: SessionPlan[] = [
       { nameEn: 'TRX Calf Raise', nameTh: 'ยกส้นเบ่งเกร็งน่องให้ทรงตัวดีทนแรงปะทะ', durationOrSetsEn: '2 x 15', durationOrSetsTh: '2 เซต เซตละ 15 ครั้ง' },
       { nameEn: 'Optional TRX Chest Press', nameTh: 'ตัวเลือกเสริม: ดันขยายหน้าอกแผ่นบ่าพยุงตัวส่งพลัง (ทำเฉพาะตอนกล้ามยังสดชื่น)', durationOrSetsEn: '2 x 8-10 only if fresh', durationOrSetsTh: '2 เซต เซตละ 8-10 ครั้ง เมื่อกล้ามเนื้อแรงดี' }
     ],
-    imageUrl: import.meta.env.BASE_URL + 'images/plan-3.jpg',
-    fallbackUrl: 'https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=600&auto=format&fit=crop',
-    easyImageUrl: 'https://i.postimg.cc/DwDZdCK4/Chat-GPT-Image-May-21-2026-01-18-29-PM.png',
-    fullImageUrl: 'https://i.postimg.cc/cJnJDQxq/Chat-GPT-Image-May-21-2026-12-23-44-PM.png'
+    easyImageUrl: import.meta.env.BASE_URL + 'images/plan-3-easy.png',
+    fullImageUrl: import.meta.env.BASE_URL + 'images/plan-3-full.png'
   },
   {
     id: 4,
@@ -141,10 +135,8 @@ export const sessionPlans: SessionPlan[] = [
       { nameEn: 'Backhand-side recovery', nameTh: 'ขยับปาดเบี่ยงเอียงตัวกวาดจากมุมแบคแฮนด์เสริฟไว', durationOrSetsEn: '5 min', durationOrSetsTh: '5 นาที', durationSeconds: 300 },
       { nameEn: 'Mini test: 20 shadow shots, reset after every one', nameTh: 'มินิเทสต์: ทดลองหวดลม 20 ตบ ต่อเนื่อง โดยต้องดีเซตรีบล้านรอบไม้มานิ่งสนิทหน้าตัวทุกลูกอย่างชัดเจน', durationOrSetsEn: '5 min', durationOrSetsTh: '5 นาที', durationSeconds: 300 }
     ],
-    imageUrl: import.meta.env.BASE_URL + 'images/plan-4.jpg',
-    fallbackUrl: 'https://images.unsplash.com/photo-1626245917164-116492bf93f2?q=80&w=600&auto=format&fit=crop',
-    easyImageUrl: 'https://i.postimg.cc/tgxgrhXK/Chat-GPT-Image-May-21-2026-12-25-45-PM.png',
-    fullImageUrl: 'https://i.postimg.cc/6QvQHd9g/Chat-GPT-Image-May-21-2026-12-30-45-PM.png'
+    easyImageUrl: import.meta.env.BASE_URL + 'images/plan-4-easy.png',
+    fullImageUrl: import.meta.env.BASE_URL + 'images/plan-4-full.png'
   },
   {
     id: 5,
@@ -173,10 +165,8 @@ export const sessionPlans: SessionPlan[] = [
       { nameEn: 'Return-depth practice (if you have partner/wall/court)', nameTh: 'ฝึกการหวดรีเทิร์นลึกยัดหลัง (ถ้าซ้อมสลับปะทะกำแพงหรือเล่นกับคู่ซ้อม)', durationOrSetsEn: '10-15 min', durationOrSetsTh: '10-15 นาที', durationSeconds: 600 },
       { nameEn: 'Record: serves attempted / serves in / main miss', nameTh: 'บันทึกจดสถิติหลังซ้อมเสร็จ: ลิสต์ยอดเสิร์ฟประคองตัว / ตีเป้าในตัว / นอกตัว', durationOrSetsEn: 'Self-assessment', durationOrSetsTh: 'ประเมินเก็บวิถีความพลาดหลักของตัว' }
     ],
-    imageUrl: import.meta.env.BASE_URL + 'images/plan-5.jpg',
-    fallbackUrl: 'https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?q=80&w=600&auto=format&fit=crop',
-    easyImageUrl: 'https://i.postimg.cc/XvCv2wVh/Chat-GPT-Image-May-21-2026-12-47-16-PM.png',
-    fullImageUrl: 'https://i.postimg.cc/XvCv2wVD/Chat-GPT-Image-May-21-2026-12-49-45-PM.png'
+    easyImageUrl: import.meta.env.BASE_URL + 'images/plan-5-easy.png',
+    fullImageUrl: import.meta.env.BASE_URL + 'images/plan-5-full.png'
   },
   {
     id: 6,
@@ -207,10 +197,8 @@ export const sessionPlans: SessionPlan[] = [
       { nameEn: 'Dink-height control near wall', nameTh: 'เคาะหยอดดิงก์พยักหน้าไม้ควบคุมระนาบต่ำผ่านเกณฑ์เป้าปักกำแพง', durationOrSetsEn: '10 min', durationOrSetsTh: '10 นาที', durationSeconds: 600 },
       { nameEn: 'Wrist/shoulder reset', nameTh: 'ยืดเหยียดผ่อนคลายข้อหมุนนิ้วกระดูกข้อมือไหล่ส่งความสดชดพยักไม้', durationOrSetsEn: '5 min', durationOrSetsTh: '5 นาที', durationSeconds: 300 }
     ],
-    imageUrl: import.meta.env.BASE_URL + 'images/plan-6.jpg',
-    fallbackUrl: 'https://images.unsplash.com/photo-1511200988065-2563d76e594c?q=80&w=600&auto=format&fit=crop',
-    easyImageUrl: 'https://i.postimg.cc/CKqKvjFc/Chat-GPT-Image-May-21-2026-12-51-22-PM.png',
-    fullImageUrl: 'https://i.postimg.cc/q737m8kj/Chat-GPT-Image-May-21-2026-12-53-00-PM.png'
+    easyImageUrl: import.meta.env.BASE_URL + 'images/plan-6-easy.png',
+    fullImageUrl: import.meta.env.BASE_URL + 'images/plan-6-full.png'
   },
   {
     id: 7,
@@ -240,10 +228,8 @@ export const sessionPlans: SessionPlan[] = [
       { nameEn: 'Dink-height control', nameTh: 'ฝึกการดิงก์หยอดเตี้ยหน้ากำแพงคุมกระดอนระนาบตาเบาขยับ', durationOrSetsEn: '6 min', durationOrSetsTh: '6 นาที', durationSeconds: 360 },
       { nameEn: 'Finish: 10 clean forehands + 10 clean backhands', nameTh: 'ปิดท้ายด้วยความคมระดับพระกาฬ: ตีเนื้อแน่นปึกไม่เป๋ซ้ายขวาอย่างละ 10 ชุดสมบูรณ์', durationOrSetsEn: '5 min', durationOrSetsTh: '5 นาที', durationSeconds: 300 }
     ],
-    imageUrl: import.meta.env.BASE_URL + 'images/plan-7.jpg',
-    fallbackUrl: 'https://images.unsplash.com/photo-1500485035595-cbe6f645feb1?q=80&w=600&auto=format&fit=crop',
-    easyImageUrl: 'https://i.postimg.cc/JhkhTb1q/Chat-GPT-Image-May-21-2026-12-56-19-PM.png',
-    fullImageUrl: 'https://i.postimg.cc/BvKvhxqC/Chat-GPT-Image-May-21-2026-12-57-34-PM.png'
+    easyImageUrl: import.meta.env.BASE_URL + 'images/plan-7-easy.png',
+    fullImageUrl: import.meta.env.BASE_URL + 'images/plan-7-full.png'
   },
   {
     id: 8,
@@ -278,10 +264,8 @@ export const sessionPlans: SessionPlan[] = [
       { nameEn: 'Soft dink/touch', nameTh: 'ซ้อมสับข้อมือกะเกณฑ์ตระหนักแรงสะท้อนหยอดเบาหน้าอก', durationOrSetsEn: '5 min', durationOrSetsTh: '5 นาที', durationSeconds: 300 },
       { nameEn: 'Easy rally or wall touch', nameTh: 'ลงตีสนามซิกแซกแรลลี่กับเพื่อนฝูงเบาๆ หรือสาดอุ่นกำแพงซึมซับ', durationOrSetsEn: '5-10 min', durationOrSetsTh: '5-10 นาที', durationSeconds: 450 }
     ],
-    imageUrl: import.meta.env.BASE_URL + 'images/plan-8.jpg',
-    fallbackUrl: 'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?q=80&w=600&auto=format&fit=crop',
-    easyImageUrl: 'https://i.postimg.cc/cJnJDQsM/Chat-GPT-Image-May-21-2026-12-58-48-PM.png',
-    fullImageUrl: 'https://i.postimg.cc/W45PwzZB/Chat-GPT-Image-May-22-2026-10-05-51-AM.png'
+    easyImageUrl: import.meta.env.BASE_URL + 'images/plan-8-easy.png',
+    fullImageUrl: import.meta.env.BASE_URL + 'images/plan-8-full.png'
   },
   {
     id: 9,
@@ -315,10 +299,8 @@ export const sessionPlans: SessionPlan[] = [
       { nameEn: 'Light walk', nameTh: 'เดินลบอารมณ์ความสติรอบสนามผ่อนความร้อน 10 นาทีนิ่ง', durationOrSetsEn: '10 min', durationOrSetsTh: '10 นาที', durationSeconds: 600 },
       { nameEn: 'Breathing cooldown & Quick notes', nameTh: 'สมาธิผ่อนเกร็งคลื่นระบบประสาท พร้อมบันทึกข้อปรับหลักข้อเดียวลงไดอารี่', durationOrSetsEn: 'Self-cooldown + notes', durationOrSetsTh: 'หายใจผ่อนสมาธิ 1 นาที พร้อมบันทึกสิ่งดีๆและสิ่งปรับหนึ่งเดียว' }
     ],
-    imageUrl: import.meta.env.BASE_URL + 'images/plan-9.jpg',
-    fallbackUrl: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=600&auto=format&fit=crop',
-    easyImageUrl: 'https://i.postimg.cc/NMWGRLqv/Chat-GPT-Image-May-22-2026-10-07-23-AM.png',
-    fullImageUrl: 'https://i.postimg.cc/tgxgrhXx/Chat-GPT-Image-May-21-2026-01-08-14-PM.png'
+    easyImageUrl: import.meta.env.BASE_URL + 'images/plan-9-easy.png',
+    fullImageUrl: import.meta.env.BASE_URL + 'images/plan-9-full.png'
   }
 ];
 
